@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authenticatzo.Data\Authenticatzo.Data.csproj">
+      <Name>Authenticatzo.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Authenticatzo.Models\Authenticatzo.Models.csproj">
+      <Name>Authenticatzo.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Authenticatzo.Interfaces\Authenticatzo.Interfaces.csproj">
+      <Name>Authenticatzo.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  
+</Project>

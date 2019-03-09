@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.36.1.1226" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authenticatzo.Interfaces\Authenticatzo.Interfaces.csproj">
+      <Name>Authenticatzo.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Authenticatzo.Models\Authenticatzo.Models.csproj">
+      <Name>Authenticatzo.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.IdentityModel.Protocols">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.identitymodel.protocols\5.2.0\lib\netstandard1.4\Microsoft.IdentityModel.Protocols.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

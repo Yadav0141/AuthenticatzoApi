@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authenticatzo.Models\Authenticatzo.Models.csproj">
+      <Name>Authenticatzo.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
